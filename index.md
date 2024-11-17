@@ -238,7 +238,5 @@ A bat and a ball cost `$1.10` in total. The bat costs `$1.00` more than the ball
 <img src="qr-code-thinking-accuracy.png" alt="QR code for this presentation" width="30%">
 </img>
 
-<sub>[LearnByFailure.com](https://learnbyfailure.com/thinking-accuracy/)</sub>
-
 <small>[Back to LearnByFailure](https://learnbyfailure.com/research/)
 </small>
