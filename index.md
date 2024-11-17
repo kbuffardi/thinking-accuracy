@@ -204,13 +204,6 @@ Answer: [tinyurl.com/unit-test-practice](https://tinyurl.com/unit-test-practice)
 
 A bat and a ball cost `$1.10` in total. The bat costs `$1.00` more than the ball. How much does the ball cost?
 
-[comment]: # (|||)
-
-
-* <small>Receive three integers and rearrange their values so that they are in descending order from greatest (first) to least (third)</small>
-
-![Example implementation of sortDescending function](sortDescending.png)
-
 [comment]: # (!!!)
 
 #### CRT vs Code Review
@@ -218,8 +211,8 @@ A bat and a ball cost `$1.10` in total. The bat costs `$1.00` more than the ball
 ----------
 
 * CRT was a significant predictor of:
-  * manually **rejecting defective code** (p<0.0001) with the log odds of correctly rejecting the defective code increasing by 2.94 (95% CI 1.56-4.50)
-  * manually **identifying a defective case** (p<0.001) with the log odds of doing so increasing by 2.37 (95% CI 1.05-3.86).
+  * Code review **rejecting defective code** (p<0.0001) with the log odds of correctly rejecting the defective code increasing by 2.94 (95% CI 1.56-4.50)
+  * Code review **identifying a defective case** (p<0.001) with the log odds of doing so increasing by 2.37 (95% CI 1.05-3.86).
 * Replication study: variant of CRT (with no math) and different functions
   * consistent results (ρ=0.478, p<0.01)
 
