@@ -63,11 +63,11 @@ Example unit test assertions,
 
 comparing **actual** and **expected** values:
 
-`ASSERT_EQ( board.place_piece(0,0) , 'X' );`
+`ASSERT_EQ( board.place_piece(0,0), 'X');`
 
 Or 
 
-`ASSERT_EQ( board.place_piece(-1,2) , '?' );`
+`ASSERT_EQ( board.place_piece(-1,2), '?');`
 
 
 [comment]: # (!!!)
@@ -111,12 +111,13 @@ if( row >= 0 && row <= 2 || column >= 0 && column <= 2> )
 
 [comment]: # (|||)
 
-![](positive-verification.svg)
+![](positive-affirmation.svg)
 
 [comment]: # (|||)
 
 * Many do well (but not perfect) with only a few false positives and negatives
-* Found some testers struggled with either **positive affirmation** *or* **test effectiveness** on a given function to test
+* Some struggled with either:
+  * **positive affirmation** *or* **test effectiveness** on a given function to test
 * Either type of inaccuracy is *equally associated* with number of bugs in *their own* code [(Buffardi \& Valdivia, 2019)](http://hdl.handle.net/10125/60199)
 
 [comment]: # (!!!)
@@ -156,9 +157,31 @@ if( row >= 0 && row <= 2 || column >= 0 && column <= 2> )
 
 ![Example implementation of isPalindrome function](isPalindrome.png)
 
-[comment]: # (!!!)
+[comment]: # (|||)
 
 ##### Practice: identify test cases
+
+* <small>Receive a string and returns whether it has both at least one upper-case
+  letter and at least one lower-case letter</small>
+
+`bool Password::has_mixed_case(string pass)`
+
+* Hand-write test cases
+| Input | Expected Output |
+| ----- | --------------- |
+| *"AbCd"* | *true* |
+* Fork and clone: [github.com/kbuffardi/unit-test-practice](https://github.com/kbuffardi/unit-test-practice/)
+
+[comment]: # (|||)
+
+| A | B |
+| --- | --- |
+| ![Version A](regression-a.png) | ![Version B](regression-b.png) |
+
+[comment]: # (|||)
+
+Answer: [tinyurl.com/unit-test-practice](https://tinyurl.com/unit-test-practice)
+![QR code for unit test practice answers](qr-unit-test-practice-form.png)
 
 [comment]: # (!!!)
 
@@ -215,7 +238,7 @@ A bat and a ball cost `$1.10` in total. The bat costs `$1.00` more than the ball
 
 ----------
 
-<small>This presentation is accessible at [learnbyfailure.com/thinking-like-a-tester/](https://learnbyfailure.com/thinking-accuracy/) and its source is available on [GitHub](https://github.com/kbuffardi/thinking-accuracy/).</small>
+<small>This presentation is accessible at [learnbyfailure.com/thinking-accuracy/](https://learnbyfailure.com/thinking-accuracy/) and its source is available on [GitHub](https://github.com/kbuffardi/thinking-accuracy/).</small>
 
 <small>Special thanks to student co-authors: [Pedro Valdivia](https://www.linkedin.com/in/pedro-valdivia1/), [Destiny Rogers](https://www.linkedin.com/in/destiny-rogers/), and [Juan Aguirre-Ayala](https://www.linkedin.com/in/jaguirre-ayala/) who were all undergraduate researchers at Chico State.</small>
 
