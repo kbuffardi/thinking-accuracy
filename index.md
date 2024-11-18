@@ -86,10 +86,10 @@ Or
   * **Testing effectiveness** - Percentage of bugs caught by tests?
 
 ``` [1|2|3|4]
-if( row >= 0 && row <= 2 && column >= 0 && column <= 2> )
-if( row >= 0 && row <= 2 && column > 0 && column <= 2> )
+if( row >= 0 && row <= 2 && column >= 0 && column <= 2 )
+if( row >= 0 && row <= 2 && column > 0 && column <= 2 )
 if( row >= 0 && row <= 2 && column >= 0 )
-if( row >= 0 && row <= 2 || column >= 0 && column <= 2> )
+if( row >= 0 && row <= 2 || column >= 0 && column <= 2 )
 ```
   
 [comment]: # (|||)
